@@ -15,7 +15,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
-    echo "terdapat data sebanyak ".$row["itung"].";
+    echo "terdapat data sebanyak ".$row["itung"];
 } else {
     echo "0 results";
 }
